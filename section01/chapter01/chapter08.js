@@ -25,7 +25,7 @@ console.log(10 + strToNum1);  //20 출력
 let str2 = "10개"; 
 let strToNum2 = Number(str2);  // NaN 출력이된다. 이럴때는 parseInt() 사용할것  
 let strToNum3 = parseInt(str2); 
-console.log( strToNum2);  /10 출력  
+console.log( strToNum2);  /10 출력
 
 //숫자 -> 문자열 
 let num1 = 20; 

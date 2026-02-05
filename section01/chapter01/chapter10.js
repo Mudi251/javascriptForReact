@@ -24,6 +24,4 @@ let varC = (value) => {
   return value + 1; 
 }; 
  
-console.log(varC(10));
-
-
+console.log(varC(10)); 
