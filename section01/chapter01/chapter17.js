@@ -22,4 +22,3 @@ console.log(item1, item2);
   
 arrC[0] = "hello"; 
 console.log(arrC); 
-

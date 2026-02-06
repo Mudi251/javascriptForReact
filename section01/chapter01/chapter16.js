@@ -6,7 +6,7 @@ color: "black",
 }; 
 //상수인 animal 에 새로운 객체를 대입하면 안됨.  
 animal ={ 
-name: “호랑이” 
+name: "호랑이" 
 } 
 animal.age = 2;          
 // 추가가능 
@@ -16,9 +16,9 @@ delete animal.color;
 // 삭제가능 
 //값이 함수인 프로퍼티를 말함 
 const person = { 
-name: "홍길동”, 
+name: "홍길동", 
 // 메서드 선언 
-,sayHi() { 
+sayHi() { 
 console.log("안녕!"); 
 }, 
 //익명함수 가능 
@@ -31,4 +31,4 @@ console.log("안녕3!");
 }, 
 }; 
 person.sayHi(); 
-person["sayHi"]();  //괄호표기법으로 함수 호출가능하다.
+person["sayHi"]();  //괄호표기법으로 함수 호출가능하다. 

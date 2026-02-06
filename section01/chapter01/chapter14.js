@@ -40,4 +40,3 @@ console.log(person);
 let result1 = "name" in person;
 let result2 = "cat" in person;
 console.log(result2);
-

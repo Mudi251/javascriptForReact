@@ -22,10 +22,24 @@ console.log("True 함수");
 return 10; 
 } 
  
-console.log(returnFalse() && returnTrue()); 
- 
-// 단락 평가 활용 사례 
-function printName(person) { 
+console.log(returnFalse() && returnTrue());
+
+//단락평가테스팅
+//함수선언문(호이스팅)
+function printName(person) {
   const name = person && person.name; 
-  console.log(name || "person의 값이 없음");
+  console.log(name || "person 객체가 없음."); 
 }
+
+printName({name:"홍길동"}); 
+
+
+
+
+
+
+
+
+
+
+
