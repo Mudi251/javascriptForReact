@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import Register from './components/Register';
+import HookExam from './components/HookExam';
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -9,7 +9,7 @@ export default function App() {
   const onLightClick = (e) =>{setLight (light === 'ON'? 'OFF': 'ON')}
   
   return<>
-    <Register/>
+    <HookExam/>
 
   </>
 }
