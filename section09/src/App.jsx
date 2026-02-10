@@ -29,7 +29,7 @@ const mockData = [
 ]; 
 
 function App() {
-  const [todos, setToodos] = useState(mockData)
+  const [todos, setTodos] = useState(mockData)
   const idRef = useRef(3);
   //이벤트함수(setTodos 생성 핸들러함수)
   const onCreate = (content) =>{
@@ -40,17 +40,17 @@ function App() {
     content: content, 
     date: new Date().getTime(), 
   }
-    setToodos([newTodo, ...todos])
+    setTodos([newTodo, ...todos])
   }
   //이벤트함수(setTodos 데이타 수정)
   const onUpdate = (id) =>{
-    setToodos(todos.map((todo)=>{
+    setTodos(todos.map((todo)=>{
       return todo.id === id?{...todo, isDone: !todo.isDone} : todo
     }));
   }
   //이벤트함수(setTodos 삭제)
   const onDelete = (id) => {
-    setToodos(todos.filter((todo)=>{
+    setTodos(todos.filter((todo)=>{
       return todo.id !== id
     }));
   }
