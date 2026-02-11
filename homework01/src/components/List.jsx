@@ -2,7 +2,7 @@ import { useState } from "react";
 import ScoreItem from "./ScoreItem";
 import "../css/List.css";
 
-const List = ({ scores, onDelete }) => {
+const List = ({ scores, onDelete, onUpdate }) => {
   const [search, setSearch] = useState("");
 
   const filterData = scores.filter(item =>
@@ -28,7 +28,7 @@ const List = ({ scores, onDelete }) => {
         </thead>
         <tbody>
           {filterData.map(item =>
-            <ScoreItem key={item.id} {...item} onDelete={onDelete}/>
+            <ScoreItem key={item.id} {...item} onDelete={onDelete} onUpdate={onUpdate}/>
           )}
         </tbody>
       </table>

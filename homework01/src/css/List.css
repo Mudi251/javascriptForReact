@@ -1,18 +1,7 @@
-.List {
-  width: 900px;
-  margin: 30px auto;
-}
-
-.List h4 {
-  margin-bottom: 10px;
-}
-
 .List input {
-  width: 200px;
   padding: 8px;
-  margin-bottom: 15px;
+  border-radius: 6px;
   border: 1px solid #ccc;
-  border-radius: 4px;
 }
 
 .List table {
@@ -21,18 +10,45 @@
 }
 
 .List th {
-  background-color: #3a00c1;
-  color: #fff;
-  padding: 10px;
-  font-weight: normal;
+  background-color: #553dce;
+  color: white;
+  padding: 12px;
 }
 
 .List td {
   padding: 10px;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
 }
 
 .List tr:hover {
-  background-color: #f5f5f5;
+  background-color: #f3f0ff;
+}
+
+.List button {
+  padding: 4px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.List button:first-child {
+  background-color: #ffc107;
+  color: black;
+}
+
+.List button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;   /* ⭐ 중요 */
+}
+td, th {
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
 }

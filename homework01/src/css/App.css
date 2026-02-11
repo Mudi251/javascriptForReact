@@ -1,0 +1,15 @@
+.App {
+  background-color: #f4f6fb;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
