@@ -1,0 +1,32 @@
+.Editor {
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.Editor h4 {
+  margin-bottom: 15px;
+}
+
+.Editor input {
+  width: 140px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Editor button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #553dce;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Editor button:hover {
+  background-color: #218305;
+}

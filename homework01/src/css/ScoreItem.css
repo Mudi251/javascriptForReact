@@ -1,0 +1,12 @@
+.List button {
+  padding: 4px 10px;
+  border: none;
+  background-color: #d9534f;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.List button:hover {
+  background-color: #c9302c;
+}
